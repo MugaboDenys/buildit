@@ -2,15 +2,15 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div className="">
+    <div className="px-20">
       <div className="w-1/2">
-        <h2 className="text-4xl font-bold text-red-300">Development Company</h2>
-        <p>
+        <h2 className="text-5xl font-bold text-footerbg">Development Company</h2>
+        <p className="text-primaryColor text-2xl">
           Forward-thinking real estate developer, owner and investor with a
           reputation
         </p>
-        <div>
-            <Link href={'/services'} className="py-2 px-3">Services</Link>
+        <div className="mt-10 text-white" >
+            <Link href={'/services'} className="py-2 px-5 font-bold bg-primaryColor shadow-lg shadow-primaryColor hover:bg-footerbg duration-200 rounded-md">Services</Link>
         </div>
       </div>
       <div></div>
