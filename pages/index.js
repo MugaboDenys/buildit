@@ -1,7 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Contact from '../components/Contact'
 import Hero from '../components/Hero'
 import Innovation from '../components/Innovative'
+import Logos from '../components/Logos'
+import Properties from '../components/Properties'
+import Socials from '../components/Socials'
 
 export default function Home() {
   return (
@@ -15,6 +19,10 @@ export default function Home() {
       <main  className=''>
         <Hero/>
         <Innovation/>
+        <Logos/>
+        <Properties/>
+        <Socials/>
+        <Contact/>
       </main>
 
       

@@ -10,7 +10,6 @@ import hero from "../public/hero.svg";
 const Hero = () => {
   return (
     <div className="px-32 my-10 flex gap-5">
-      <Image src={hero} className="absolute -z-10 top-0 right-0" alt=""/>
       <div className="w-1/2 flex flex-col justify-center">
         <h2 className="text-6xl font-bold text-footerbg">
           Development Company
@@ -28,7 +27,7 @@ const Hero = () => {
           </Link>
           <Link
             href={"/services"}
-            className=" py-2 px-5 font-bold text-footerbg bg-blue-100  hover:bg-slate-300 duration-200 rounded-md"
+            className=" py-2 px-5 font-bold text-footerbg bg-blue-100  hover:bg-blue-200 duration-200 rounded-md"
           >
             About The Company
           </Link>

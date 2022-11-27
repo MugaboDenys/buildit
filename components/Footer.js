@@ -34,10 +34,10 @@ const Footer = () => {
         </h2>
         <div className="space-x-2">
           <Link href={"/"} className="inline-block">
-            <Image src={buttonIG} alt="" width={30} />
+            <Image className="hover:opacity-70 duration-200" src={buttonIG} alt="" width={30} />
           </Link>
           <Link href={"/"} className="inline-block">
-            <Image src={buttonFB} alt="" width={30} />
+            <Image className="hover:opacity-70 duration-200" src={buttonFB} alt="" width={30} />
           </Link>
         </div>
         <div className="col-start-4">
