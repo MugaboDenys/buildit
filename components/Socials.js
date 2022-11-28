@@ -11,7 +11,7 @@ const Socials = () => {
       <div className="max-w-screen-lg mx-auto">
         <div className="text-center">
           <h5 className="text-teal-400 font-semibold">Socials</h5>
-          <h2 className="text-primaryColor font-bold text-3xl">On Instagram</h2>
+          <h2 className="text-primaryColor font-bold text-3xl">On Instagram.</h2>
         </div>
         <div className="grid grid-cols-3 gap-5 pt-10">
           <Image src={image1} alt="" />
