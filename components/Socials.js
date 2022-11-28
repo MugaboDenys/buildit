@@ -1,10 +1,10 @@
 import Image from "next/image";
 import image1 from "../public/Card1.png";
-import image2 from "../public/Card2.png";
-import image3 from "../public/Card3.png";
-import image4 from "../public/Card4.png";
-import image5 from "../public/Card5.png";
-import image6 from "../public/Card6.png";
+import image2 from "../public/card2.png";
+import image3 from "../public/card3.png";
+import image4 from "../public/card4.png";
+import image5 from "../public/card5.png";
+import image6 from "../public/card6.png";
 const Socials = () => {
   return (
     <div className="py-36 bg-bg2 ">
