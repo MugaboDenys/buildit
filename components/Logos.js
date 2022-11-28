@@ -1,9 +1,9 @@
 import Image from "next/image";
-import logo1 from "../public/vector.svg";
-import logo2 from "../public/vector2.svg";
-import logo3 from "../public/vector3.svg";
-import logo4 from "../public/vector4.svg";
-import logo5 from "../public/vector5.svg";
+import logo1 from "../public/Vector.svg";
+import logo2 from "../public/Vector2.svg";
+import logo3 from "../public/Vector3.svg";
+import logo4 from "../public/Vector4.svg";
+import logo5 from "../public/Vector5.svg";
 import image1 from "../public/Rectangle6.png";
 import Link from "next/link";
 
@@ -24,7 +24,7 @@ const Logos = () => {
         <div className="w-1/2 pt-36 space-y-5">
           <h5 className="text-teal-400 font-semibold">About us</h5>
           <h2 className="text-primaryColor font-bold text-3xl">
-            Owner and investor with a reputation
+            Owner and investor with a reputations
           </h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc elit
