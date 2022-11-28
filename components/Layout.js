@@ -4,7 +4,7 @@ import Footer from "./Footer";
 
 const Layout = ({ children }) => {
   return (
-    <div className="bg-gradient-to-tr from-[#a8c1ec] to-[#E1EBFA]">
+    <div className="bg-gradient-to-tr from-color1 to-color2">
       <Navbar />
       <div className="min-h-screen">{children}</div>
       <Footer />
